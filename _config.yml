@@ -14,13 +14,13 @@ defaults:
     values:
       title: dbyll
 
-description: Musings of an electronic cigarrette smoking man.
+description: Just another blog.
 author:
   name: Nicolas Corrarello
   email: nicolas@corrarello.com
   github: ncorrare
   linkedin: ncorrare
-  bio: Guilty of nerding in all counts.
+  bio: Musings of an electronic cigarette smoking man.
   email_md5: 9ec955f0cb65381eae42566d4351a8b5
 
 rss_path: feed.xml
@@ -28,3 +28,4 @@ categories_path: categories.html
 tags_path: tags.html
 
 BASE_PATH:
+languages: ["es", "en"]
