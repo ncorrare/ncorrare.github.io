@@ -30,9 +30,14 @@ a.nav-link {
 	padding-bottom: 5px;
 	padding-top: 7px;
 	color: #aaa;
+	text-decoration: underline;
 }
 a.nav-link i{
 	font-size: 16px;
+	text-decoration: underline;
+}
+a:link {
+	text-decoration: underline;
 }
 a.nav-link:hover { color: #777 }
 

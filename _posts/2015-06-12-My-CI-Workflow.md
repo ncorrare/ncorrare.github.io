@@ -20,6 +20,8 @@ In comes **Travis CI**. It's probably way more powerful that what I'm using it f
 - It's extremely simple to configure
 
 How simple you may ask?
+
+
 - Head onto the [Travis-CI Website](http://www.travis-ci.org)
 - Log-in with your GitHub Account, and enable the repo's you want to manage
 
