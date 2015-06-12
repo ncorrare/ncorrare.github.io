@@ -105,3 +105,6 @@ Coveralls.wear!
 require 'puppetlabs_spec_helper/module_spec_helper'
 {% endhighlight %}
 
+The only gotcha so far, is that you need to add an environment variable (USENETWORK=true) in Travis to allow the test to post the result to Coveralls. You can do this through the Web Interface, or in your .travis.yml file.
+
+![Setting the environment variable in Travis](/assets/media/coveralls/envvar.png "Setting the environment variable in Travis")
