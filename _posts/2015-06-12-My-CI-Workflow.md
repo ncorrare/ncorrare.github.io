@@ -77,8 +77,8 @@ So in my case, I'm doing parsing validation, linting and spec testing on my modu
 ##Keeping you honest
 You need to write spec tests to cover your cases, the more spec tests you write, the more you can be sure that you're not breaking anything when changing your code. Luckily there is a great tool to help you with that, and its Coveralls.
 
-![How much of my code do my tests cover](assets/media/coveralls/code-coverage.png "How much of my code do my tests cover")
-![Where do I need to work a bit more](assets/media/coveralls/more-work.png "Where do I need to work a bit more")
+![How much of my code do my tests cover](/assets/media/coveralls/code-coverage.png "How much of my code do my tests cover")
+![Where do I need to work a bit more](/assets/media/coveralls/more-work.png "Where do I need to work a bit more")
 
 To set up Coveralls, [the instructions are pretty clear](https://coveralls.zendesk.com/hc/en-us/articles/201769485-Ruby-Rails), but basically you'd need to:
 
