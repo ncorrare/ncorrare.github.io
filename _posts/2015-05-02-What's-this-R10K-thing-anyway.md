@@ -67,5 +67,5 @@ sources:
     basedir: '/etc/puppetlabs/puppet/environments/'
 {% endhighlight %}
 
-If you now proceed to run r10k deply environment -pv, voila!, R10K is already setting up your Puppet Environments for you.
+If you now proceed to run r10k deploy environment -pv, voila!, R10K is already setting up your Puppet Environments for you.
 Now that you understand the basics behind R10K, look into the r10k module [in the Puppet Forge](https://forge.puppetlabs.com/zack/r10k) for instructions into how to have Puppet manage R10K (that will eventually manage your Puppet environments, and there we go full circle again).
