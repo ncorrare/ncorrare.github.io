@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Docker\: You're doing it wrong
+title: Docker, You're doing it wrong
 categories: [general, docker, ramblings]
 tags: [rants, ramblings, docker, things I write on planes]
 fullview: true
