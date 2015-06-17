@@ -35,6 +35,8 @@ So let's be a little more pedagogic about Docker from a System Administrator per
 - XSA-108 anyone? Remember cloud reboots? Even a mature technology that has been on the market for years is prone to have security issues, so there is no guarantee that something weird running in your container might actually hit a 0-day and start reading memory segments that don't belong to it.
 
 ![Vulnerabilities in Docker Images, extracted from http://www.infoq.com/news/2015/05/Docker-Image-Vulnerabilities](/assets/media/docker/dockerhub-official-image001.png "Vulnerabilities in Docker Images, extracted from http://www.infoq.com/news/2015/05/Docker-Image-Vulnerabilities")
+
+
 Now I don't pretend to discourage you from actually using Docker, again, it's a great tool if you use it wisely. But build your own images!. Understand what you're putting into them. Make it part of your development cycle to actually update them and re-release them. Use it as it was designed, i.e. stateless!.
 
 I know that this might cause flame wars and you are desperately looking for a comments box to express your anger on how I've been trashing Docker. 
