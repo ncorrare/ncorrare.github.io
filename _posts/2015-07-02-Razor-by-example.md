@@ -60,6 +60,7 @@ Now it's time to obtain the PXE images. You can get the 'undionly.kpxe' file [he
 
 Technically, your infrastructure is ready to start collecting node information, boot a new node from the network, and hopefully, you'll see this:
 
+
 ![Razor Booting Up](/assets/media/razorboot.png)
 
 That's razor booting by the way, give it a couple of minutes (about two in my demo environment) and all your facts about that node will be collected.
