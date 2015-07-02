@@ -59,6 +59,7 @@ This will set up the Razor Server in the Puppet Master.
 Now it's time to obtain the PXE images. You can get the 'undionly.kpxe' file [here](http://boot.ipxe.org/undionly.kpxe), and the bootstrap.ipxe file from the razor server itself. Just curl the contents of http://razor:8080/api/microkernel/bootstrap?nic_max=N to a file, but don't use localhost, since it actually hardcodes the server name. Drop those two in your tftp home directory.
 
 Technically, your infrastructure is ready to start collecting node information, boot a new node from the network, and hopefully, you'll see this:
+
 ![Razor Booting Up](/assets/media/razorboot.png)
 
 That's razor booting by the way, give it a couple of minutes (about two in my demo environment) and all your facts about that node will be collected.
