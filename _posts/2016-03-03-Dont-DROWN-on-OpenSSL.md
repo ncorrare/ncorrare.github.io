@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Don't DROWN own OpenSSL
+title: Don't DROWN on OpenSSL
 categories: [general, puppet, code, security]
 tags: [puppet, drown, openssl]
 fullview: true
