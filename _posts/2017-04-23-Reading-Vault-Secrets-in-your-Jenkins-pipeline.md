@@ -124,7 +124,7 @@ In this way we're minimizing attack vectors:
 
 ### Jenkins pipeline and configuration
 
-A full example for the project is available [https://github.com/ncorrare/vault-java-example](here). The Jenkinsfile will be using is this one:
+A full example for the project is available [here](https://github.com/ncorrare/vault-java-example). The Jenkinsfile will be using is this one:
 {% highlight groovy %}
 pipeline {
   agent any
