@@ -62,38 +62,38 @@ As for the development effort, the only complexity added would be adding two sta
 
 Using this pattern, along with the well known secret management features in Vault, would help mitigate against the Top 10 database attacks as documented by the British Chartered Institute for IT:
 
-1. Excessive privileges
+1. Excessive privileges:
 Using transit, in combination of Vault’s Database Secret Backend, an organization can ensure that each user or application get’s the right level of access to the data, which in its own can be encrypted, requiring further level of privilege to decode it.
 
-2. Privilege abuse
+2. Privilege abuse: 
 Using transit, the data obtained even with the right privileges is encrypted, and potentially requiring the right “context” to decrypt it, even if the user has access to.
 
-3. Unauthorized privilege elevation
+3. Unauthorized privilege elevation: 
 Much like in the cases above, Vault can determine what is the right access a user gets to a database, effectively terminating the “Gold credentials” pattern and encrypting the underlying data from operator access.
 
-4. Platform vulnerabilities
+4. Platform vulnerabilities: 
 Even if the platform is vulnerable, the data would be secure.
 
-5. SQL injection
+5. SQL injection: 
 As data is not transparently encrypted, a vulnerable application would mostly dump obfuscated data, that can be re-wrapped upon detection of a vulnerability to an updated encryption key.
 
-6. Weak audit
+6. Weak audit: 
 Vault audits encryption and decryption operations, effectively creating an audit trail which would allow to pinpoint exactly who has access to the data.
 
-7. Denial of service
+7. Denial of service: 
 Through Sentinel, our policy as code engine, Vault can evaluate traffic patterns through rules and deny access accordingly.
 
-8. Database protocol vulnerabilities
+8. Database protocol vulnerabilities: 
 As before, even if the data is dumped, it wouldn’t be transparently decrypted.
 
-9. Weak authentication
+9. Weak authentication: 
 Using Vault’s Database secret backend, would generate short lived credentials which can be revoked centrally, and have the right level of complexity.
 
-10. Exposure of backup data
+10. Exposure of backup data: 
 Backups would be automatically encrypted, just like the underlying data.
 
 
 ---
 About the author:
-Nicolas Corrarello is the Regional Directoer for Solutions Engineering @ HashiCorp based out of London.
+Nicolas Corrarello is the Regional Director for Solutions Engineering @ HashiCorp based out of London.
 
