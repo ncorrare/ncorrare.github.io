@@ -146,6 +146,8 @@ $
 
 
 And the result would be something like:
+
+
 ![Scalable pings](/assets/media/dispatchping.gif)
 
 
@@ -203,6 +205,8 @@ end
 As you can see there I'm getting a Consul Token that I'm passing to the UI (it lasts for a minute) and I'm getting another Nomad token from Vault (which expires in 5 minutes) to do the request.
 
 Final result looks fantastic
+
+
 ![Scalable book adding](/assets/media/librarydispatch.gif)
 
 
